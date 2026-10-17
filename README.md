@@ -1,38 +1,37 @@
 # MultiStage_CTF
 
-> Multi-stage CTF challenge collection.
-
 [![GitHub](https://img.shields.io/badge/GitHub-Pytech04/MultiStage__CTF-blue)](https://github.com/Pytech04/MultiStage_CTF)
-[![CTF](https://img.shields.io/badge/Type-Multi--stage%20CTF-red)](https://github.com/Pytech04/MultiStage_CTF)
+[![CTF](https://img.shields.io/badge/Category-Multi--Stage%20Web%20CTF-red)](https://github.com/Pytech04/MultiStage_CTF)
 
-## 📋 Overview
+## Overview
 
-Contains multi-stage CTF challenges designed to test progressive exploitation skills. Each stage builds on previous findings, requiring methodical enumeration and exploitation.
+Progressive multi-stage CTF challenge where each stage unlocks the next. Tests enumeration, exploitation chaining, and systematic thinking.
 
-## 🗂 Contents
-
-- Challenge files and assets
-- Stage breakdowns
-- Supporting scripts
-
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Pytech04/MultiStage_CTF.git
 cd MultiStage_CTF
-ls -la
 ```
 
-## 💡 Approach
+## Methodology
 
-1. **Reconnaissance** - Enumerate and understand each stage
-2. **Progression** - Solve stage by stage, chaining findings
-3. **Documentation** - Keep track of flags/techniques
+1. **Stage Discovery** - Identify entry points and surface area
+2. **Information Gathering** - Extract artifacts that lead to next stage
+3. **Chained Exploitation** - Use stage N output to access N+1
+4. **Flag Collection** - Document each flag and path taken
 
-## ⚠️ Disclaimer
+## Skills Tested
 
-For authorized CTF practice and educational purposes only.
+- Web exploitation
+- Privilege/escalation chaining
+- Creative problem solving
+- Attention to detail
 
-## 🔗 Author
+## Disclaimer
+
+For educational and authorized CTF practice only.
+
+## Author
 
 [Pytech04](https://github.com/Pytech04)
